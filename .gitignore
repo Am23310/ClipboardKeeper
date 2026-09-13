@@ -1,0 +1,9 @@
+# 构建中间产物（build.bat 会重新生成）
+selftest.exe
+icon-gen.exe
+
+# 运行日志（真实运行时的日志在 %APPDATA%\ClipboardKeeper\，这里只防万一）
+*.log
+
+# 剪贴板数据文件——绝不能进版本库
+history.json
