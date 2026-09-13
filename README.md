@@ -116,3 +116,7 @@ ALL TESTS PASSED
 - JSON 序列化用 `JavaScriptSerializer`；历史文件损坏时按空历史处理
 - 历史窗口关闭 = 隐藏而非销毁（避免"无法访问已释放的对象"崩溃）
 - 未处理异常统一兜底写入 `%APPDATA%\ClipboardKeeper\error.log`
+
+## 许可证
+
+MIT License —— 详见 [LICENSE](LICENSE)
